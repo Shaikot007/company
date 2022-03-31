@@ -1,0 +1,52 @@
+.trapezoid {
+	border-top: 50px solid #FF4917;
+	border-bottom: 0px solid #FF4917;
+	border-left: 0px solid transparent;
+	border-right: 35px solid transparent;
+	height: 0;
+	width: 200px;
+}
+
+.text-color {
+    color: #FF4917 !important;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.consulting-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    width: 175px;
+    color: white;
+    background-color: #162029;
+    border-radius: 34px;
+    z-index: 0;
+}
+
+.consulting-button:hover {
+    color: white;
+}
+
+.inner-box {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 75px;
+    background-color: #FF4917;
+    border-radius: 34px;
+    z-index: 1;
+}
+
+.consulting-button p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    z-index: 2;
+    margin-right: 15px;
+}
+
+.blank-space {
+    width: 200px;
+}
