@@ -308,3 +308,98 @@
 }
 
 /* ================================ */
+/* ===== For customer service ===== */
+
+.customer-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-service-triangle-topleft {
+    position: absolute;
+    top: 990px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 200px solid #FF4917;
+    border-right: 165px solid transparent;
+    z-index: 4;
+}
+
+.customer-service-triangle-middleleft {
+    position: absolute;
+    top: 990px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 250px solid rgba(255, 73, 23, 0.5);
+    border-right: 205px solid transparent;
+    z-index: 3;
+}
+
+.customer-service-vector-image {
+    position: absolute;
+    top: 1035px;
+    right: 115px;
+    height: 400px;
+}
+
+.star-top-image {
+    position: absolute;
+    top: 1050px;
+    right: 115px;
+}
+
+.star-bottom-image {
+    position: absolute;
+    top: 1250px;
+    right: 50px;
+}
+
+.customer-service .row {
+    margin-top: 25px;
+}
+
+.customer-service-headline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #FF4917;
+}
+
+.customer-service-dot-line {
+    width: 25px;
+    border: solid 1px #FF4917;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.customer-service-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+
+.customer-service-box:hover {
+    border-bottom: solid 5px #FF4917;
+    cursor: pointer;
+}
+
+.customer-service-box p {
+    font-size: small;
+}
+
+/* ================================ */
