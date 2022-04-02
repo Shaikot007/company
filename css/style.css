@@ -836,7 +836,7 @@
 }
 
 /* ================================ */
-/* ====== For logo section ===== */
+/* ======= For logo section ======= */
 
 .logo-menu {
     display: flex;
@@ -858,6 +858,35 @@
 .logo-menu button:hover {
     background-color: #FF4917;
     color: white;
+}
+
+/* ================================ */
+/* ====== For article section ===== */
+
+.article-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.article-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    border-bottom: solid #FF4917 5px;
+}
+
+.btn:hover {
+    color: #FF4917;
 }
 
 /* ================================ */
