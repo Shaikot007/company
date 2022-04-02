@@ -243,6 +243,7 @@
 
 .about-us-images:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .about-us-headline {
@@ -401,5 +402,137 @@
 .customer-service-box p {
     font-size: small;
 }
+
+/* ================================ */
+/* ====== For video section ======= */
+
+.video {
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#myVideo {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+
+.caption-content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10%;
+    height: 100%;
+}
+
+.video-dot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.video-dot .dot {
+    margin-right: 15px;
+    width: 50px;
+    border: solid white 1px;
+}
+
+.caption-content-left p {
+    font-size: small;
+    line-height: 1;
+}
+
+.video-content-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: #FF4917;
+    border-radius: 34px;
+    z-index: 0;
+}
+
+.video-content-button:hover {
+    color: white;
+}
+
+.inner-box-video-content {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 75px;
+    background-color: #162029;
+    border-radius: 34px;
+    z-index: 1;
+}
+
+.video-content-button p {
+    margin-block-start: 0em;
+    margin-block-end: 0.5em;
+    z-index: 2;
+    margin-right: 15px;
+}
+
+.caption-content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.caption-content-right button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    border: white 1px;
+    border-style: double;
+}
+
+.video_button {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+
+/* ================================ */
+/* ===== For Business section ===== */
+
+
 
 /* ================================ */
