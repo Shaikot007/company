@@ -836,3 +836,28 @@
 }
 
 /* ================================ */
+/* ====== For logo section ===== */
+
+.logo-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.logo-menu button {
+    height: 50px;
+    width: 100px;
+    background-color: #E8E8E8;
+    color: black;
+    border-radius: 6px;
+    border: none;
+}
+
+.logo-menu button:hover {
+    background-color: #FF4917;
+    color: white;
+}
+
+/* ================================ */
