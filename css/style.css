@@ -686,4 +686,32 @@
     margin-right: 15px;
 }
 
+.h-250 {
+    height: 250px;
+}
+
+.count {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+.count-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100px;
+    transition: transform .2s;
+}
+
+.count-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 /* ================================ */
