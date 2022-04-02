@@ -597,7 +597,7 @@
     z-index: 3;
 }
 
-.card-crrow {
+.card-arrow {
     height: 10px;
     width: 20px;
 }
@@ -619,8 +619,8 @@
     background-color: #162029;
 }
 
-.h-500 {
-    height: 500px;
+.h-750 {
+    height: 750px;
 }
 
 .what-we-do-assest {
@@ -712,6 +712,66 @@
 .count-card:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+/* ================================ */
+/* ======= For team section ======= */
+
+.card-triangle-topleft-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 60px solid #FF4917;
+    border-right: 60px solid transparent;
+    z-index: 2;
+}
+
+.card-triangle-topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 70px solid rgba(255, 73, 23, 0.6);
+    border-right: 70px solid transparent;
+    z-index: 1;
+}
+
+.card-triangle-bottomright {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid rgba(255, 73, 23, 0.6);
+    border-left: 100px solid transparent;
+    z-index: -1;
+}
+
+.team .card .card-img-overlay {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: 3;
+}
+
+.card-facebook {
+    height: 20px;
+    width: 10px;
+}
+
+.team .business-service {
+    cursor: pointer;
+}
+
+.team-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
 }
 
 /* ================================ */
